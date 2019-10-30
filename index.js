@@ -9,6 +9,7 @@ import Greet from "./components/Greet";
 import Welcome from "./components/Welcome";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
+import EventBind from "./components/EventBind";
 
 class App extends Component {
   constructor() {
@@ -24,7 +25,7 @@ class App extends Component {
       <div className="container">
         <Message />
         <Counter />
-
+        <EventBind />
         <Hello name={this.state.name} />
         <p>
           Start editing to see some magic happen :)
