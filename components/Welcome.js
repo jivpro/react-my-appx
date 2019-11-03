@@ -7,8 +7,8 @@ class Welcome extends Component {
     // const { state1, state2 } = this.state; // destructuring state in class-component
     return (
       <div>
-        // <h1>Welcome to {this.props.name} </h1>
-        // {this.props.children}
+        { /* <h1>Welcome to {this.props.name} </h1>}
+        {this.props.children} */ }
 
         <h1>Welcome to {name} </h1>
         {children}

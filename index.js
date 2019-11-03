@@ -10,6 +10,7 @@ import Welcome from "./components/Welcome";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
 import EventBind from "./components/EventBind";
+import Hellox from "./components/Hello";
 
 class App extends Component {
   constructor() {
@@ -36,6 +37,8 @@ class App extends Component {
 
         <Greet name="Rama">
         </Greet>
+
+        <Hellox name="Krishna Pandit" />
 
         <Welcome name = "Hero" >
           <p className = "text-primary">Jay ho!</p>
