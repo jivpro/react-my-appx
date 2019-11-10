@@ -37,8 +37,6 @@ class App extends Component {
         <Greet name="Rama">
         </Greet>
 
-        <Hellox name="Krishna Pandit" />
-
         <Welcome name = "Hero" >
           <p className = "text-primary">Jay ho!</p>
         </Welcome>
